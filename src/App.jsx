@@ -10,6 +10,7 @@ function App() {
        {/* <h1 className="text-3xl font-bold text-white">App</h1> */}
        <Header/>
        <Hero/>
+      
        </div>
        
          <ButtonGradient />
