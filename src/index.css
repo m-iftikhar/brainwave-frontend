@@ -1,5 +1,8 @@
 /* @config "../tailwind.config.js"; */
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
 
 @theme {
   /* Neutral color palette (text-n-1, bg-n-2, etc.) */
@@ -27,9 +30,7 @@
   --color-color-6: #FF98E2;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+
 
 
 
