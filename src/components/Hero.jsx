@@ -23,9 +23,9 @@ const Hero = () => {
       customPaddings
       id="hero"
     >
-      <div className="container relative" ref={parallaxRef}>
+      <div className="container relative px-4" ref={parallaxRef}>
         <div className="relative z-1 max-w-248 mx-auto text-center mb-15.5 md:mb-20 lg:mb-25">
-          <h1 className="h1 mb-6">
+          <h1 className="text-4xl md:text-6xl mb-6">
             Explore the Possibilities of&nbsp;AI&nbsp;Chatting with {` `}
             <span className="inline-block relative">
               Brainwave{" "}
