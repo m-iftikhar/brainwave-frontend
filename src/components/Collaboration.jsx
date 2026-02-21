@@ -8,7 +8,7 @@ const Collaboration = () => {
   return (
     <Section crosses>
       <div className="container lg:flex">
-        <div className="max-w-100 ml-20">
+        <div className="max-w-100 lg:ml-20 ml-4">
           <h2 className="h2 mb-4 md:mb-8">
             AI Chat App for seamless collaboration
           </h2>
@@ -30,7 +30,7 @@ const Collaboration = () => {
           <Button>Try it now</Button>
         </div>
 
-        <div className="lg:ml-auto xl:w-152 mt-4">
+        <div className="lg:ml-auto xl:w-152 mt-4 ml-4">
           <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-88 lg:mx-auto">
             {collabText}
           </p>
@@ -63,7 +63,7 @@ const Collaboration = () => {
                     }`}
                   >
                     <img
-                      className="m-auto"
+                      className="m-auto  "
                       width={app.width}
                       height={app.height}
                       alt={app.title}
